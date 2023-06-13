@@ -1,0 +1,476 @@
+#mainbox1{
+    width: 1366px;
+    height: auto;
+    background-color: #d6e2f4;
+}
+
+#mainbox2{
+    width: auto;
+    height: 1400px;
+    background-color: #d6e2f4;
+}
+
+#innderbox1{
+    width: 1346px;
+    height: 80px;
+}
+
+.nav_bar {
+    background-color: #5a81ab;
+    overflow: hidden;
+}
+
+.nav_bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 100px;
+}
+
+#headerslider{
+    width: 1366px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.Name_of_cruise{
+    color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-inner{
+    width: 1366px;
+    height: 840px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.slider-inner img{
+    display: none;
+    width: 1366px;
+    height: 840px;
+}
+
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.prev, .next{
+    float: left;
+    margin-top: 400px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.prev{
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next{
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+
+#innderbox3{
+    width: 660px;
+    height: 450px;
+    background-color: #6ea1d6;
+    float: left;
+    padding: 10px;
+    
+}
+
+#innderbox4{
+    width: 650px;
+    height: 450px;
+    background-color: #8fb3df;
+    float: right;
+    padding: 10px;
+}
+
+#Map{
+    width: 1366px;
+    height: 520px;
+    background-color: #6ea1d6;
+    margin-bottom: 20px;
+}
+
+#innderbox5{
+    height: 470px;
+}
+
+#innderbox6{
+    width: 1346px;
+    height: 585px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Cruise_of_the_week_img{
+    width: 580px;
+    height: 580px;
+    float: left;
+}
+
+.Cruise_of_the_week_text{
+    margin-left: 10px;
+    float: left;
+}
+
+.cart_button{
+    float: right;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#innderbox7{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: left;
+}
+
+#innderbox8{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#innderbox9{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: left;
+}
+
+#innderbox10{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#innderbox12{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: left;
+}
+
+#innderbox13{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#innderbox14{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: left;
+}
+
+#innderbox15{
+    width: 600px;
+    height: 287px;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.Cruise_of_the_week_img1{
+    width: 277px;
+    height: 580px;
+    float: left;
+}
+
+.Cruise_of_the_week_text1{
+    margin-left: 10px;
+    float: left;
+}
+
+#Cruise_of_the_week_button1{
+    float: right;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+#innderbox11{
+    height: 550px;
+    width: auto;
+    background-color: #b2c7e8;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#Codes{
+    margin-right: 450px;
+    float: left;
+    margin-left: 10px;
+}
+
+#Quantity{
+    margin-right: 90px;
+    float: left;
+}
+
+#Cost{
+    margin-right: 90px;
+    float: left;
+}
+
+.remove_all{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #d6e2f4;
+    border-radius: 30px;
+    border-color: #8fb3df;
+}
+    
+#trip1{
+    margin-top: 20px;
+    height: 60px;
+    background-color: #6ea1d6;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.code1{
+    width: 680px;
+    float: left;
+}
+
+#quantity1{
+    float: left;
+    margin-top: 18px;
+    margin-right: 130px;
+}
+
+.total1{
+    margin-right: 130px;
+    float: left;
+}
+
+.remove1{
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-right: 105px;
+    float: right;
+}
+
+#trip2{
+    margin-top: 20px;
+    height: 60px;
+    background-color: #6ea1d6;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.code2{
+    width: 680px;
+    float: left;
+}
+
+#quantity2{
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.total2{
+    margin-right: 130px;
+    float: left;
+}
+
+.remove2{
+    margin-left: 165px;
+    margin-top: 7px;
+}
+
+#trip3{
+    margin-top: 20px;
+    height: 60px;
+    background-color: #6ea1d6;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.code3{
+    width: 680px;
+    float: left;
+}
+
+#quantity3{
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.total3{
+    margin-right: 130px;
+    float: left;
+}
+
+.remove3{
+    margin-top: 7px;
+    margin-left: 165px;
+}
+
+#trip4{
+    margin-top: 20px;
+    height: 60px;
+    background-color: #6ea1d6;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.code4{
+    width: 680px;
+    float: left;
+}
+
+#quantity4{
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.total4{
+    margin-right: 130px;
+    float: left;
+}
+
+.remove4{
+    margin-top: 7px;
+    margin-left: 165px;
+}
+
+#trip5{
+    margin-top: 20px;
+    height: 60px;
+    background-color: #6ea1d6;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.code5{
+    width: 680px;
+    float: left;
+}
+
+#quantity5{
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.total5{
+    margin-right: 130px;
+    float: left;
+}
+
+.remove5{
+    margin-top: 7px;
+    margin-left: 165px;
+}
+
+#equal{
+    margin-bottom: 10px;
+}
+
+.equal2{
+    margin-right: 450px;
+    float: left;
+    margin-left: 10px;
+}
+
+#Grandtotal{
+    margin-top: 35px;
+    margin-right: 50px;
+    float: left;
+}
+
+.Purchase{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #d6e2f4;
+    border-radius: 30px;
+    border-color: #8fb3df;
+    float: right;
+}
+
+#logo{
+    cursor: pointer;
+}
+footer {
+    background-color: #5a81ab;
+    padding: 10px;
+    width: auto;
+}
+
+#footer{
+    width: auto;
+    background-color: #5a81ab;
+    padding: 10px;
+    display: block;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.text_center{
+    text-align: center;
+}

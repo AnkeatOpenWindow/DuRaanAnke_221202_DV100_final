@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+
+    <link rel="stylesheet" href="Index.css">
+    <script src="jquery file\jquery-3.6.0.min.js"></script>
+    <script src="Index.JS"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <style>
+        h1 {
+            text-align: left;
+        font-family: "Montserrat", sans-serif;
+            }
+    </style>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <style>
+        h2 {
+            text-align: left;
+        font-family: "Inter", sans-serif;
+            }
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <style>
+        p {
+            text-align: left;
+        font-family: "Open Sans", sans-serif;
+            }
+    </style>
+</head>
+<body>
+    <div id="mainbox1">   
+        <div id="innerbox1">
+            <div class="navagation">
+                <div class="nav_bar"> <!-- navagation bar -->
+                    <a class="Logo" href="Homepage.html"><p><img src="Img\Logo2.png" height="40px" class="left"></p></a>
+                    <a class="Aboutus" href="Homepage.html#innderbox3"><p>About us</p></a>
+                    <a class="Trip_of_week" href="Homepage.html#innderbox6"><p>Cruise of the week</p></a>
+                    <a class="Tripspage" href="Tripspage.html"><p>Trips page</p></a>
+                    <a class="Cheak_out" href="Checkout.html"><p>Cheak out page</p></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="innderbox11">
+            <div id="heading">
+                <div id="Codes"><h1>Trip codes</h1></div>
+                <div id="Cost"><h1>Total cost</h1></div>
+                <div id="Quantity"><h1>Trip Quantity</h1></div>
+                <button class="remove_all">
+                    Remove all
+                </button>
+            </div>
+        
+            <div class="list">
+                <div id="trip1">
+                    <div class="code1">
+                        <P>Dove12</P>
+                    </div>
+                    
+                    <div id="total1" class="total1" value="30000">
+                        30000
+                    </div>
+
+                    <input id="quantity1" class="quantity" type="number" value="1" min="1" onchange="adjustrow1_total(), total()"/>
+
+                    <button class="remove1">
+                        <img src="Img\Bin.jpg" alt=""  height="30px" class="left">
+                    </button>
+                </div>
+
+                <div id="trip2">
+                    <div class="code2">
+                        <P>Royal</P>
+                    </div>
+
+                    <div id="total2" class="total2" value="20118">
+                        20118
+                    </div>
+                    
+                    <input id="quantity2" class="quantity2" type="number" value="1" min="1" onchange="adjustrow2_total(), total()"/>
+                
+                    <button class="remove2">
+                        <img src="Img\Bin.jpg" alt=""  height="30px" class="left">
+                    </button>
+                </div>
+
+                <div id="trip3">
+                    <div class="code3">
+                        <p>Float50</p>
+                    </div>
+                    
+                    <div id="total3" class="total3" value="25520">
+                        25520 
+                    </div>
+
+                    <input id="quantity3" class="quantity3" type="number" value="1" min="1" onchange="adjustrow3_total(), total()"/>
+                    
+                    <button class="remove3">
+                        <img src="Img\Bin.jpg" alt=""  height="30px" class="left">
+                    </button>
+                </div>
+
+                <div id="trip4">
+                    <div class="code4">
+                        <P>Mediterranean</P>
+                    </div>
+                
+                    <div id="total4" class="total4" value="46118">
+                        46118
+                    </div>
+
+                    <input id="quantity4" class="quantity4" type="number" value="1" min="1" onchange="adjustrow4_total(), total()"/>
+                
+                    <button class="remove4">
+                        <img src="Img\Bin.jpg" alt=""  height="30px" class="left">
+                    </button>
+                </div>
+
+                <div id="trip5">
+                    <div class="code5">
+                        <P>Queen90</P>
+                    </div>
+
+                    <div id="total5" class="total5" value="50118">
+                        50118 
+                    </div>
+
+                    <input  id="quantity5" class="quantity5" type="number" value="1" min="1" onchange="adjustrow5_total(), total()"/>
+                
+                    <button class="remove5">
+                        <img src="Img\Bin.jpg" alt=""  height="30px" class="left">
+                    </button>
+                </div>
+            </div>
+            <div id="equal">
+                <h1 class="equal2">Total</h1>
+    
+                <div id ="Grandtotal" class="total" >
+                
+                </div>
+    
+                <button class="Purchase">
+                    Purchase
+                </button>
+            </div>
+        </div>        
+        
+        <footer><!-- footer-->
+            <img src="Img\Logo.png" height="60px" class="logo" id="logo" class="left">
+            <a href="https://twitter.com/"><img src="Img\twitter_icon.svg" height="50px" class="right"></a>
+            <a href="https://www.facebook.com/"><img src="Img\facebook_icon.svg" height="50px" class="right"></a>
+            <a href="https://www.instagram.com/"><img src="Img\instagram_icon.svg" height="50px" class="right"></a>
+            <a href="https://www.youtube.com/"><img src="Img\youtube_icon.svg" height="50px" class="right"></a>
+        </footer> 
+    </div>
+    
+</body>
+</html>
